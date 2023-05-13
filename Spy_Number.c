@@ -11,7 +11,11 @@ int main()
         a=a/10;
     }
     if(sum==p)
+    {
         printf("Spy Number");
+    }
     else
-    printf("Not Spy Number");
+    {
+        printf("Not Spy Number");
+    }
 }
