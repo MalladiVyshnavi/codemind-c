@@ -10,7 +10,11 @@ int main()
         i=i/10;
     }
     if(a==c)
-    printf("True");
+    {
+        printf("True");
+    }
     else
-    printf("False");
+    {
+        printf("False");
+    }
 }
