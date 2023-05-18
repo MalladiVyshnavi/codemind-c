@@ -10,24 +10,23 @@ int sum(int n)
     }
     return s;
 }
-    int main()
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    int x=sum(n);
+    while(x>9)
     {
-        int n;
-        scanf("%d",&n);
-        int x=sum(n);
-        while(x>9)
+        x=sum(x);
+        if (x>9)
         {
-            x=sum(x);
-            if(x>9)
-            {
-                
             continue;
-            }
+        }
         else
         {
             break;
         }
+        
     }
     printf("%d",x);
 }
-    
