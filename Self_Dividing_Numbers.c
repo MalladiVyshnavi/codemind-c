@@ -15,10 +15,9 @@ int main()
             if(r!=0&&i%r==0)
             t=t+i;
             q=q/10;
+            
         }
         if(c==t)
-        {
-            printf("%d ",i);
-        }
+        printf("%d ",i);
     }
 }
