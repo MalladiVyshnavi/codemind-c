@@ -1,39 +1,38 @@
 #include<stdio.h>
 int main()
 {
-    int n;
-    scanf("%d",&n);
-    if(n==1)
+    int d;
+    scanf("%d",&d);
+    if(d==1)
     {
-        printf("monday");
+        printf("Monday");
     }
-    else if(n==2)
+    else if(d==2)
     {
-        printf("tuesday");
+        printf("Tuesday");
     }
-    else if(n==3)
+    else if(d==3)
     {
-        printf("wednesday");
+        printf("Wednesday");
     }
-    else if(n==4)
+    else if(d==4)
     {
-        printf("thursday");
+        printf("Thursday");
     }
-    else if(n==5)
+    else if(d==5)
     {
-        printf("friday");
+        printf("Friday");
     }
-    else if(n==6)
+    else if(d==6)
     {
-        printf("saturday");
+        printf("Saturday");
     }
-    else if(n==7)
+    else if(d==7)
     {
-        printf("sunday");
+        printf("Sunday");
     }
     else
     {
-        printf("invalid input");
+        printf("Invalid input");
     }
-  
 }
