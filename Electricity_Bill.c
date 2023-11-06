@@ -50,6 +50,5 @@ int main()
         }
     }
     tot=b+d;
-    printf("Total Amount: %0.2f
-",tot);
+    printf("Total Amount: %0.2f",tot);
 }
